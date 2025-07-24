@@ -1,0 +1,82 @@
+#form
+{
+    position: relative; 
+    background-color: rgb(26 188 156);
+    width:350px;
+    height: 320px;
+    border: 4px solid rgb(26 100 100)
+}
+.input
+{
+    position: absolute;
+}
+#nameInput {
+  width: 57%;
+  height: 30px;
+  top: 30px;
+  left: 20px;
+}
+
+/* עכשיו גם מהלך למטה וגם מימין */
+#salaryInput {
+  top: 120px;
+  left: 20px;
+  width: 25%; /* אם אתה רוצה אותו רוחב */
+  height: 30px;
+}
+#birthdayInput
+{
+  top: 120px;
+  left: calc(60px + 25%);
+  width: 25%; /* אם אתה רוצה אותו רוחב */
+  height: 30px;
+}
+#phoneInput
+{
+  width: 57%;
+  height: 30px;
+  top: 200px;
+  left: 20px;
+}
+#submitBtn
+{
+    top:270px;
+    left: 255px;
+    width:14%;
+    height: 30px;
+    background-color: rgb(26 140 140);
+}
+#nameLabel {
+  position: absolute;
+  top:  10px;
+  left: 20px;
+  font-weight: bold;
+}
+#salaryLabel {
+  position: absolute;
+  top:  100px;
+  left: 20px;
+  font-weight: bold;
+}
+#birthLabel {
+  position: absolute;
+  top:  100px;
+  left: calc(20px + 25% + 40px); 
+  font-weight: bold;
+}
+#phoneLabel {
+  position: absolute;
+  top:  180px;
+  left: 20px;
+  font-weight: bold;
+}
+#errorMessage
+{
+    color: red;
+    top:275px;
+    left:20px;
+}
+.hidden
+{
+    display:none !important;
+}
